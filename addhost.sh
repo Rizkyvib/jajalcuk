@@ -1,10 +1,10 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=myvpnkuy.xyz
+DOMAIN=kayaiku.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.myvpnkuy.xyz
-CF_ID=amsalsiregar12@gmail.com
-CF_KEY=d7646d2edd8f564e0da635c6b8b71c5fba0e2
+SUB_DOMAIN=${sub}.kayaiku.my.id
+CF_ID=rizkyvib33@gmail.com
+CF_KEY=f7c7f14c61819efe2927da549c96c7f866668
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
